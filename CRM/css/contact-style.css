@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+}
+
+.form-main-div{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.w-450 {
+    width:  450px;
+    background-color: #22333B;
+    color: #EAE0D5;
+}
+
+.w-450 input:active{
+    background-color: #5E503F;
+}
+
+.vh-100{
+    min-height: 100vh;
+}
+
+
+.top-nav{
+    background-color: #0B4F6C;
+    padding: 1em;
+    color: #F2F4F3;
+}
+
+.top-nav h2 {
+    display: inline;
+}
+
+
+.right-nav-menu {
+    display: flex;
+    float: right;
+}
+
+.side-nav{
+    background-color: #0B4F6C;
+    float:left;
+    height: 100vh;
+    padding-top: 2em;
+    color: #F2F4F3;
+}
+
+.side-nav li {
+    padding: 1.5em;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-nav a:link {
+    color: red;
+}
+
+.dashboard-items{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    margin: 2em;
+}
+ 
+
+/* task.php */
+
+.task-table {
+    margin: 2em;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
